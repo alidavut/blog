@@ -1,7 +1,8 @@
 ---
-title:  "Running ES7 with Babel 6"
-date:   2015-12-08 10:18:00
+title: "Running ES7 with Babel 6"
 description: Babel 6 setup to run ES7 on demand
+date: 2015-12-08 10:18:00
+pid: 2
 ---
 
 [TL;DR](#tldr). Babel is the one of my favourite Node.js module. It enables us to use the next generation javascript today. But last 5-6 months or 1 year, I don't remember, I haven't used it in any project and now I see there are lots of changes.
