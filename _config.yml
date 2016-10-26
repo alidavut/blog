@@ -10,7 +10,7 @@ highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://www.alidavut.com'
 google_analytics: 'UA-2750303-25'
 disqus: true
 disqus_shortname: 'alidavut'
