@@ -1,0 +1,43 @@
+name: Ali Davut
+description: Ruby, Node, React
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
+paginate: 20
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-2750303-25'
+disqus: true
+disqus_shortname: 'alidavut'
+
+# Details for the RSS feed generator
+url:            'http://www.alidavut.com'
+author:         'Ali Davut'
+authorTwitter:  'alidavut'
+
+permalink:       /:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
